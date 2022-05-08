@@ -1,0 +1,42 @@
+
+body{
+    background-color: #fff;
+}
+
+/* Shrink Navbar logo when scrolling */
+header {
+   width: 100%;
+
+}
+.header {
+    z-index: 1;
+}
+#navlogo{
+    padding: 20px;
+    background-color: #1A3350 !important;
+}
+#navlogo a {
+    color: #fff;
+}
+.shrink {
+    position: fixed;
+    top:0%;
+    z-index: 1;
+    transition: all 5s ease-in-out;
+}
+.shrink #navlogo{
+    padding: 5px 5px;
+}
+.shrink #logo{
+    max-width: 150px;
+}
+
+#navbar {
+    padding: 2px 2px;
+    background-color: #132132 !important;
+
+}
+#navbar a {
+    color: #fff;
+    font-size: 12px;
+}
