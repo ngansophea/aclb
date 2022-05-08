@@ -1,5 +1,15 @@
-// Shrink Sticky Header Nav On Scroll
+
+
 $(document).ready(function(){
+
+    // Preloader page
+    setTimeout(function(){
+		$('#loader').removeClass('loader');
+		$('h1').css('color','#222222');
+	}, 2000);
+
+	
+    // Shrink Sticky Header Nav On Scroll
     $(document).on("scroll",function() {
         if ($(document).scrollTop() > 80 ) {
             $(".header").addClass("shrink");
@@ -9,4 +19,6 @@ $(document).ready(function(){
             $("#navbar").removeClass("shrink-navbar");
         }
     })
+
+
 });
