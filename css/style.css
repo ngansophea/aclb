@@ -64,3 +64,8 @@ header {
     color: #fff;
     font-size: 12px;
 }
+
+.box-img {
+    width: 500px !important;
+    height: 500px !important;
+}
